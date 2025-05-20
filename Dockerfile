@@ -1,4 +1,4 @@
-FROM blender:3.6.1
+FROM blender/blender:3.6.1
 
 # Install Node.js
 RUN apt update && apt install -y curl gnupg
